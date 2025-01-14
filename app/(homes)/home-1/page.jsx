@@ -15,8 +15,8 @@ export const metadata = {
 export default function HomePage1() {
   return (
     <>
-      {/* <SearchPopup />
-      <Header1 /> */}
+      <SearchPopup />
+      <Header1 />
       <Hero />
       {/* <About />
 

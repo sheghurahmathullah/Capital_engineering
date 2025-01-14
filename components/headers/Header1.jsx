@@ -74,9 +74,10 @@ export default function Header1() {
           <div className="mobile-logo">
             <Link scroll={false} href="/">
               <Image
-                width={86}
-                height={24}
-                src="/assets/img/logo.svg"
+               height={40}
+               width={16}
+               style={{ width: "40px", height: "16px" }}
+                src="/assets/img/capital-logo-blue.webp"
                 alt="Ovation"
               />
             </Link>
@@ -116,9 +117,9 @@ export default function Header1() {
                   <div className="header-logo">
                     <Link scroll={false} href="/">
                       <Image
-                        width={86}
-                        height={24}
-                        src="/assets/img/logo.svg"
+                     width={300}
+                     height={24}
+                        src="/assets/img/capital-logo-blue.webp"
                         alt="logo"
                       />
                     </Link>
