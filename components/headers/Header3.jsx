@@ -69,11 +69,11 @@ export default function Header3() {
             <i className="fas fa-times"></i>
           </button>
           <div className="mobile-logo">
-            <Link scroll={false} href="/">
+          <Link scroll={false} href="/">
               <Image
-                height={40}
-                width={16}
-                style={{ width: "40px", height: "16px" }}
+               height={30}
+               width={150}
+               style={{ width: "150px", height: "30px" }}
                 src="/assets/img/capital-logo-blue.webp"
                 alt="Ovation"
               />
@@ -112,10 +112,10 @@ export default function Header3() {
               <div className="row align-items-center justify-content-between">
                 <div className="col-auto">
                   <div className="header-logo">
-                    <Link scroll={false} href="/">
+                  <Link scroll={false} href="/">
                       <Image
-                        width={300}
-                        height={24}
+                     width={200}
+                     height={24}
                         src="/assets/img/capital-logo-blue.webp"
                         alt="logo"
                       />
