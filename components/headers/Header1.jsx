@@ -74,9 +74,9 @@ export default function Header1() {
           <div className="mobile-logo">
             <Link scroll={false} href="/">
               <Image
-               height={40}
-               width={16}
-               style={{ width: "40px", height: "16px" }}
+               height={30}
+               width={150}
+               style={{ width: "150px", height: "30px" }}
                 src="/assets/img/capital-logo-blue.webp"
                 alt="Ovation"
               />
@@ -88,15 +88,15 @@ export default function Header1() {
             </ul>
           </div>
           <div className="sidebar-wrap">
-            <h6>27 Division St, New York,</h6>
-            <h6>NY 10002, USA</h6>
+            <h6>Unit 2109, 21st floor Regal Tower, Business Bay,</h6>
+            <h6>Dubai, UAE</h6>
           </div>
           <div className="sidebar-wrap">
             <h6>
-              <a href="tel:1800123654987">+1 800 123 654 987 </a>
+              <a href="tel:1800123654987">+971 42546155 </a>
             </h6>
             <h6>
-              <a href="mailto:frisk.agency@mail.com">frisk.agency@mail.com</a>
+              <a href="mailto:frisk.agency@mail.com">info@capitalengg.com</a>
             </h6>
           </div>
           <div className="social-btn style3">
@@ -117,7 +117,7 @@ export default function Header1() {
                   <div className="header-logo">
                     <Link scroll={false} href="/">
                       <Image
-                     width={300}
+                     width={200}
                      height={24}
                         src="/assets/img/capital-logo-blue.webp"
                         alt="logo"
