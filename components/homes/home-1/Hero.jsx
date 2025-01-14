@@ -10,7 +10,7 @@ export default function Hero() {
           <div className="row">
             <div className="col-lg-12">
               <h1 className="hero-title wow img-custom-anim-left animated">
-                Website 
+                Home Page 
               </h1>
 
               <h1 className="hero-title text-lg-end wow img-custom-anim-right animated">
